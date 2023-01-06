@@ -1,0 +1,21 @@
+{
+  "name": "playwright-firefox-color-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-at-mabl/playwright-firefox-color-input.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-at-mabl/playwright-firefox-color-input/issues"
+  },
+  "homepage": "https://github.com/ahmed-at-mabl/playwright-firefox-color-input#readme",
+  "devDependencies": {
+    "@playwright/test": "1.29.2"
+  }
+}
