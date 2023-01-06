@@ -16,3 +16,13 @@ test('get started link', async ({ page }) => {
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
 });
+
+test('enter text into a color picker element', async ({ page }) => {
+  const setColor = '#281cce';
+  await page.goto(
+    'https://storage.googleapis.com/public-dev-test-lab/input/inputtypes.html'
+  );
+  await page.fill('#input-color', setColor);
+  const outputColorElement = await page.$('#output-input-color');
+  expect(await outputColorElement?.innerText()).toEqual(setColor);
+});
