@@ -1,1 +1,1 @@
-# playwright-firefox-color-input
+This repo demonstrates the bug where attempting to click on a ["color" type input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) in Playwright fails in headless Firefox tests. 
